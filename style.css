@@ -1,0 +1,30 @@
+* {
+    font-family: "Poppins", sans-serif;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    margin: 5px;
+}
+
+html {
+    padding: 0px;
+    background-color: #212123;
+    color: #EFEFEF;
+    height: 100%;
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(139, 128, 249, 0.6);
+    border-radius: 10px;
+  }
