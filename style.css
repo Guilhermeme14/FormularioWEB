@@ -11,9 +11,9 @@
 
 html {
     padding: 0px;
-    background-color: #212123;
     color: #EFEFEF;
     height: 100%;
+    background-image: url(assets/wallpaper.jpg);
 }
 
 .formulario {
@@ -23,8 +23,44 @@ html {
     width: 450px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: black;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(139, 128, 249, 0.6);
+    box-shadow: 0 15px 25px rgba(29, 14, 196, 0.6);
     border-radius: 10px;
-  }
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+input {
+    background: black;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    margin: 10px;
+}
+
+.enviar {
+    background-color: #00ac14;
+    width: auto;
+    border: 0px;
+    cursor: pointer;
+}
+
+.apagar {
+    background-color: rgb(207, 19, 19);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+::placeholder{
+    color: #ccc;
+}
+.data{
+    color: #ccc;
+}
