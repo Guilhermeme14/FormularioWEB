@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <script type="text/javascript" src="script.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <h1>Cadastro</h1><br>
+        <form id="Formulário">
+            <input type="text" id="name" name="name" value="" placeholder="Inserir seu nome completo" required="45"><br>
+
+            <input type="text" id="cpf" name="cpf" value="" placeholder="Inserir seu CPF" required maxlength="14"><br>
+
+            <input type="number" id="idade" name="idade" value="" placeholder="Inserir sua idade" required
+                max="1000"><br>
+
+            <input class="data" type="date" name="nasci" id="nasci" value=""
+                placeholder="Inserir sua data de nascimento" required><br>
+
+            <input type="text" name="email" id="email" value="" placeholder="Inserir seu e-mail" required
+                maxlength="45"><br>
+
+            <input type="password" name="senha" id="senha" value="" placeholder="Inserir sua senha" required
+                maxlength="45"><br>
+
+            <input type="password" name="resenha" id="resenha" value="" placeholder="Inserir sua senha novamente"
+                required maxlength="45"><br>
+
+            <button class="apagar" onclick="clearInput()"><span>Apagar tudo</span></button>
+
+        </form>
+        <a href="https://www.youtube.com/watch?v=sfC6ey0MYGY"><button class="rick"><span>Enviar</span></button></a>
+    </div>
+</body>
+
+</html>
